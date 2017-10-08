@@ -5,7 +5,7 @@ import serial
 class ComHtplac:
     def __init__(self):
         # No Raspberry Pi 3 a porta mini UART (a que é pelo GPIO) é mapeada por padrão na /dev/ttyS0
-        self.com = serial.Serial('/dev/tty.usbserial', 19200, timeout=1)
+        self.com = serial.Serial('/dev/ttyS0', 19200, timeout=1)
 
     def teste_conexao(self):
         self.com.write('CMD\r')
