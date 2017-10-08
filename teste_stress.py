@@ -13,3 +13,5 @@ while True :
     print com.ligar_rele(1, False)
 
     if time.time() > start + PERIOD_OF_TIME : break
+
+com.fechar_conexao()
