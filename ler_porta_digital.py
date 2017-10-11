@@ -7,7 +7,7 @@ print com.teste_conexao()
 
 start = time.time()
 
-PERIOD_OF_TIME = 1  # 120 min
+PERIOD_OF_TIME = 60  # 1 min
 
 while True :
     print com.ler_entrada(1)
